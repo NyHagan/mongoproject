@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{%block content%}
+{% block content %}
 
     {% for task in tasks %}
         {{ task.task_name }}<br>
@@ -9,6 +9,4 @@
         {{ task.due_date }}<br>
     {% endfor %}
 
-{%endblock%}    
-</body>
-</html>
+{% endblock %}
